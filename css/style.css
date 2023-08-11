@@ -1,0 +1,168 @@
+/* RESET CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  /* auto ajuste o tamanho da caixa */
+    font-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;    /* Largura da font */
+    border: none;  /*removendo a bordar */
+    outline: none;
+}
+
+img{
+    max-width:100%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-size: 1.5em;
+    color:#333 ;
+}
+
+p{
+    font-size: 1em;
+    color:#777;
+}
+
+/* cabecalho */
+.cabecalho{
+    width: 100%;
+    float:left;
+    padding: 50px 8%;
+    /* background-color:#141E26; */
+    background-color:rgba(255, 0, 0, 0.706);
+    margin: 0;
+}
+.logo a{
+    width: 221px;
+    height: 48px;
+    float: left;
+    background: url(../img/logo.png) no-repeat;
+    font-size: 0;
+}
+
+.cabecalho form{
+    width:30%;
+    float: right;
+}
+.cabecalho input[type="text"]{
+    width: 85%;
+    float: left;
+    padding: 15px 10px;
+    border-radius: 10px 0 0 10px;
+}
+
+.cabecalho button{
+    width: 15%;
+    float: right;
+    padding: 15px 10px;
+    border-radius: 0 10px 10px 0;
+    background-color: rgba(255, 0, 0, 0.081);
+    color: #fff;
+    cursor: pointer;
+}
+
+/* menu */
+
+.menu{
+    width:100%;
+    float: left;
+    background-color: #fff;
+    padding: 18px 8%
+}
+
+.menu li{
+    float: left;
+
+}
+
+.menu li a{
+    color: rgba(255, 0, 0, 0.706);
+    margin-right: 25px;
+    font-size: 15;
+}
+
+
+.menu a:hover{
+    color:#1B0159
+}
+
+/* social-icons */
+.social-icons{
+    float: right;
+    font-size: 21px;
+}
+
+/* banner */
+.banner img{
+    width: 100%;
+    height: 240px;
+    margin: 0;
+}
+
+.produtos{
+    font-size: 27px;
+    text-align: center;
+    /* margin-bottom: 250px; */
+    margin-top: 50px;
+}
+
+.produto{
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.produto h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.btn-eletronico{
+    background: rgba(255, 0, 0, 0.706);
+    color: black;
+    /* background-color: #F23847; */
+    width: 50%;
+    height: 35px;
+    border-radius: 5px 5px 5px 5px;
+}
+.catalogo{
+    display: flex; /*torna os elementos filhos como flexivel*/
+    justify-content:space-evenly; /*alinha os elementos na horizontal*/
+    align-items:center; /*alinha os elementos na vertifical*/
+    margin-top: 50px;
+}
+
+.maps{
+    margin: 300px 7px 12px ;
+}
+
+/*footer */
+    
+.rodape {
+    width: 100%;
+    float: left;
+    background-color: rgba(255, 0, 0, 0.706);;
+    text-align: center;
+    padding: 1px 5px;
+    margin: 0 0 0 0;
+}
+
+.rodape p {
+    color: black;
+    margin-top: 5px 0 5px 0;
+}
+
+.rodape a {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
