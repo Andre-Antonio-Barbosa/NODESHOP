@@ -41,6 +41,9 @@ p{
     background-color:rgba(255, 0, 0, 0.706);
     margin: 0;
 }
+#busca {
+    color: black;
+}
 .logo a{
     width: 221px;
     height: 48px;
@@ -101,6 +104,18 @@ p{
     font-size: 21px;
 }
 
+a.btn-facebook:hover{
+    color:#1877F2;
+}
+
+a.btn-twitter:hover{
+    color: #1DA1F2;
+}
+
+a.btn-google:hover{
+    color: #db4a39;
+}
+
 /* banner */
 .banner img{
     width: 100%;
@@ -114,6 +129,16 @@ p{
     /* margin-bottom: 250px; */
     margin-top: 50px;
 }
+.produtos h2{
+    color:#2A3340;
+}
+
+.catalogo{
+    display: flex; /*torna os elementos filhos como flexivel*/
+    justify-content:space-evenly; /*alinha os elementos na horizontal*/
+    align-items:center; /*alinha os elementos na vertifical*/
+    margin-top: 50px;
+}
 
 .produto{
     width: 300px;
@@ -122,27 +147,46 @@ p{
     font-size: 15px;
 }
 
-.produto h3{
+.produto h3,h4{
     font-size: 20px;
-    margin-bottom: 10px;
+    margin: 40px 0 0 20px;
+    color:#2A3340;;
 }
+.produto h5{
+    margin: 77px  2px 0;
+    font-size: 20px;
+    color:#2A3340;
+}
+#img-tv{
+    height: 120%;
+    width: 250%;
+}
+
+#alexia{
+    margin-top: 35px;
+}
+#p.alexia{
+    margin-top: 300px;
+}
+.produto p{
+    font-size: 15px;
+    /* color: #333333; */
+    color:#2A3340;
+    text-align: justify;
+}
+
 .btn-eletronico{
     background: rgba(255, 0, 0, 0.706);
     color: black;
     /* background-color: #F23847; */
-    width: 50%;
+    width: 40%;
     height: 35px;
+    font-size: 15px;
     border-radius: 5px 5px 5px 5px;
 }
-.catalogo{
-    display: flex; /*torna os elementos filhos como flexivel*/
-    justify-content:space-evenly; /*alinha os elementos na horizontal*/
-    align-items:center; /*alinha os elementos na vertifical*/
-    margin-top: 50px;
-}
-
 .maps{
-    margin: 300px 7px 12px ;
+    margin-top: 380px;
+    padding: 5px 1px 0 5px;
 }
 
 /*footer */
@@ -157,12 +201,20 @@ p{
 }
 
 .rodape p {
-    color: black;
+    color:white;
     margin-top: 5px 0 5px 0;
 }
 
 .rodape a {
     font-size: 25px;
     margin-bottom: 20px;
+}
+
+a.btn-whatsapp:hover{
+    color: #25D366;
+}
+
+a.btn-instragram :hover{
+    color: #FCAF45;
 }
 
